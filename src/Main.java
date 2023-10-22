@@ -24,7 +24,7 @@ public class Main {
     int populationGrowth = natality - mortality;
     for ( int year = 1; year <= 10; year ++) { population =
     population + population / 1000 * populationGrowth;
-    System.out.println( " Год " + year + ", численность населения соответствует " + population );}
+    System.out.println( " Год " + year + ", численность населения соответствует " + population + "." );}
     // Задача 4
     { System.out.println( " Задача 4 ");
     double accumulation1 = 15_000;
