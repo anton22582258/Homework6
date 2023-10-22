@@ -28,38 +28,38 @@ public class Main {
     // Задача 4
     { System.out.println( " Задача 4 ");
     double accumulation1 = 15_000;
-    double different = 1.07;
+    double differ = 1.07;
     int month = 0;
     while ( accumulation1 < 12_000_000 )
-    { accumulation1 = accumulation1 * different; month ++;
+    { accumulation1 = accumulation1 * differ; month ++;
     System.out.println( " Месяц " + month + ", сумма накоплений: " + ( int ) accumulation1 );
-       }  System.out.println( " Потребуется месяцев " + month );
+    }  System.out.println( " Потребуется месяцев " + month );
     // Задача 5
     { System.out.println( " Задача 5 "); }
-     accumulation1 = 15_000;
-     different = 1.07;
-     month = 0;
-     while ( accumulation1 < 12_000_000 )
-     { accumulation1 = accumulation1 * different; month ++; if ( month % 6 == 0 )
-     System.out.println( " Месяц " + month + ", сумма накоплений: " + ( int ) accumulation1 );
-     }  System.out.println( " Потребуется месяцев " + month );
+    accumulation1 = 15_000;
+    differ = 1.07;
+    month = 0;
+    while ( accumulation1 < 12_000_000 )
+    { accumulation1 = accumulation1 * differ; month ++; if ( month % 6 == 0 )
+    System.out.println( " Месяц " + month + ", сумма накоплений: " + ( int ) accumulation1 );
+    }  System.out.println( " Потребуется месяцев " + month );
     // Задача 6
     { System.out.println( " Задача 6 ");
     accumulation1 = 15_000;
-    different = 1.07;
+    differ = 1.07;
     month = 0;
     while ( month < 12 * 9 )
-    { accumulation1 = accumulation1 * different; month ++; if ( month % 6 == 0 )
+    { accumulation1 = accumulation1 * differ; month ++; if ( month % 6 == 0 )
     System.out.println( " Месяц " + month + ", сумма накоплений: " + ( int ) accumulation1 );
     } }
     // Задача 7
     { System.out.println( " Задача 7 ");
     int friday = 2;
     for ( int i = friday; i <= 31; i = i + 7) {
-        System.out.println( " Сегодня пятница, " + i + "-е число. Необходимо подготовить отчет. ");
+    System.out.println( " Сегодня пятница, " + i + "-е число. Необходимо подготовить отчет. ");
     } }
     // Задача 8
     { System.out.println( " Задача 8 ");
     for ( int year = 2023 - 200; year <= 2023 + 100; year ++)
     { if ( year % 79 == 0 ) System.out.println( year );}
-} } } } } }
+    } } } } } }
